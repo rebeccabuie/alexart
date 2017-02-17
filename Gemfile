@@ -19,6 +19,12 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'capybara', '~> 2.7', '>= 2.7.1'
+  gem 'factory_girl', '~> 4.8'
+  gem 'faker', '~> 1.7', '>= 1.7.3'
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
+  gem 'pry-rails', '~> 0.3.5'
+  gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
 end
 
 group :development do
@@ -26,11 +32,6 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'capybara', '~> 2.7', '>= 2.7.1'
-  gem 'factory_girl', '~> 4.8'
-  gem 'faker', '~> 1.7', '>= 1.7.3'
-  gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
-  gem 'pry', '~> 0.10.4'
 end
 
 
